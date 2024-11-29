@@ -6,7 +6,9 @@ PLZ use this,
 
 [a program ro implement speech to text](https://github.com/mgonzs13/whisper_ros)
 
-, and then renew the ros package file `src/whisper_ros/whisper_demos/whisper_demos/whisper_demo_node.py` && `src/whisper_ros/whisper_demos/CMakeLists.txt` && `src/whisper_ros/whisper_demos/package.xml` with the file here.
+install it like the `README.md` there, but do not colcon build first.
+
+, and then replace the ros package file `src/whisper_ros/whisper_demos/whisper_demos/whisper_demo_node.py` && `src/whisper_ros/whisper_demos/CMakeLists.txt` && `src/whisper_ros/whisper_demos/package.xml` with the file here. And delete the original one.
 
 cd to your workspace and the copy this to your terminal
 
@@ -28,5 +30,5 @@ You can use this to observe
 ros2 topic echo /cmd_vel
 ```
 
-## And then you can use your voice to control the robot
+## And then you can use your voice to control the robot)))
 
