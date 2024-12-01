@@ -10,7 +10,7 @@ install it like the `README.md` there, but do not colcon build first.
 
 , and then replace the ros package file `src/whisper_ros/whisper_demos/whisper_demos/whisper_demo_node.py` && `src/whisper_ros/whisper_demos/CMakeLists.txt` && `src/whisper_ros/whisper_demos/package.xml` with the file here. And delete the original one.
 
-cd to your workspace and the copy this to your terminal
+cd to your workspace and then copy this to your terminal
 
 ```bash
 colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=release -DGGML_CUDA=ON
